@@ -1,7 +1,7 @@
-/* 小春子 */
+    /* 小春子 */
 body {
 
-    background-image: url(https://cn.bing.com/images/search?view=detailV2&ccid=7TR2k4QU&id=26F112857E3A440595FEBA27A9AD5F4AD213516F&thid=OIP.7TR2k4QU06TiowN6oiuZAAHaGk&mediaurl=https%3a%2f%2fp26.toutiaoimg.com%2forigin%2ftos-cn-i-qvj2lq49k0%2f22f10850c5234b5285350743cfa16357&exph=1000&expw=1126&q=%e4%b8%96%e7%95%8c%e6%97%85%e6%b8%b8%e8%83%9c%e5%9c%b0&simid=608033221078099628&FORM=IRPRST&ck=E0AF565BD28C394BDC24B6975BAAA05C&selectedIndex=0&itb=0);
+    background-image: url(img/1.png);
     /* 背景图垂直、水平均居中 */
     background-position: center center;
     /* 背景图不平铺 */

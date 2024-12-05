@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" href="./css/iview.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Expires" content="0">
@@ -9,8 +10,23 @@
     <meta http-equiv="Cache-control" content="no-cache,must-revalidate">
     <meta http-equiv="Cache" content="no-cache">
     <title>春子刷题</title>
-    <link rel="stylesheet" href="./css/iview.css">
-    <link rel="stylesheet" href="./css/custom.css">
+    <div class="nav">
+        <div class="nav-content">
+          <div class="nav-left">
+            <a href="javascript:scrollToTopWithAnimation()" class="site-logo">
+              <img src="./css/img/avatar.webp" alt="logo" class="site-logo-img">
+              <span class="site-name">春子刷题</span>
+            </a>   
+          </div>
+    <!--右侧博客link-->
+          <div class="nav-right">
+            <a href="https://blog.springing.top/" class="nav-item" target="_blank">博客</a>
+            <!--手机版的展开按钮-->
+            <a href="https://blog.springing.top/" class="nav-menu" id="nav-menu">博客</a>
+          </div>
+        </div>
+      </div>
+
     <script>
         var _hmt = _hmt || [];
         (function() {
@@ -20,6 +36,7 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
+
 
     <style>
         .title {
@@ -42,12 +59,17 @@
             margin-bottom: 1.5vw;
         }
     </style>
+
+
+
 </head>
 
 <body>
     <div id="el">
-        <h1 class='title'>春子刷题</h1>
-        <div class="author"><a href="http://blog.springing.top">小春子</a></div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <div class="timuList">
             <div v-for="i in jsonList" @click='goNext(i.id,i.file)'>
                 <Card class="timu">

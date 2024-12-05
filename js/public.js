@@ -1,3 +1,3 @@
 const JSONList = [
-    { id: "201610", name: '团支书单选.json', describe: '团支书单选.json', file: "团支书单选.json" },
+    { id: "00001", name: '团校考试-单选题', describe: '团校考试的单选题题库', file: "团校单选.json" },
 ]
